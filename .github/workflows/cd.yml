@@ -103,7 +103,7 @@ jobs:
           # 追加 リポジトリ内のsql/init.sqlをpublishディレクトリにコピーする
           cp SQL/init.sql ./publish/
 
-      # --- データベースの初期化（SQLの自動実行修正） ---
+      # --- データベースの初期化（SQLの自動実行修正3） ---
       - name: データベースの初期化（init.sql の実行）
         uses: appleboy/ssh-action@master
         with:
